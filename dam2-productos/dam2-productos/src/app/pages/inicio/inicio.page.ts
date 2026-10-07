@@ -7,6 +7,7 @@ import {
   IonButton
 } from '@ionic/angular';
 import { RouterLink } from '@angular/router';
+
 @Component({
   selector: 'app-inicio',
   templateUrl: './inicio.page.html',
@@ -21,6 +22,5 @@ import { RouterLink } from '@angular/router';
     RouterLink
   ]
 })
-export class InicioPage {
-}
+export class InicioPage {}
 
